@@ -82,3 +82,12 @@
 .icons li:hover{
     background-color: rgb(55, 55, 55);
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    padding: 20px;
+     height: 100%;
+        width: 100%;
+}
