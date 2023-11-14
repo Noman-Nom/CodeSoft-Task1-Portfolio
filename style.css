@@ -298,7 +298,7 @@
 .skill__div{
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+   
     padding: 20px;
 }
 .skill__right{
@@ -321,7 +321,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 2px;
     cursor: pointer;
     transition: all .3s ease-in-out;
 
@@ -335,5 +335,54 @@
 }
 .skill__left{
     flex: 1;
-    border: 1px solid;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    
+}
+.experince{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+}
+.experince__date{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    
+    
+}
+.experince__date h3{
+    font-size: 18px;
+    margin-right: 1rem;
+    color:rgb(13, 113, 184);
+}
+.experince__info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 10px;
+    /* margin: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.experince__info h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(23, 23, 23);
+}
+.experince__info span{
+    color: gray;
+    font-size: 15px;
+    margin-left: 2px;
+} 
+.experince__info p{
+    color:rgb(13, 113, 184);
+    font-weight: 500;
+    
 }
