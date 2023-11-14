@@ -63,6 +63,7 @@
     align-items: center;
     border-radius: 50%;
     transition: all .3s ease-in-out;
+    color: white;
     
     
 
@@ -73,6 +74,7 @@
     font-size: 23px;
     color: rgb(47, 47, 47);
     transition: all .3s ease-in-out;
+    
 
 
 }
@@ -189,3 +191,5 @@
     /* height: 100%; */
     width: 100%;
 }
+
+
