@@ -386,3 +386,49 @@
     font-weight: 500;
     
 }
+.resume-download{
+    width: 180px;
+    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+    gap: 10px;
+    /* border: 0.5px solid rgb(144, 144, 144); */
+    border-radius: 20px;
+    padding: 9px 14px;
+    background-color:rgb(105, 193, 255) ;
+    margin-top: 20px;
+    cursor: pointer; 
+    transition: all .3s ease-in-out;
+
+}
+.resume-download a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
+.resume-download a i{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(105, 193, 255)
+}
+.resume-download a button{
+    padding: 7px 6px;
+    border: 0;
+    outline: 0;
+    background-color:rgb(105, 193, 255) 
+  
+    
+}
+
+.resume-download:hover{
+    box-shadow: rgba(200, 110, 238, 0.8) 0px 3px 6px, rgb(93, 135, 255, 0.8) 0px 3px 6px;
+}
