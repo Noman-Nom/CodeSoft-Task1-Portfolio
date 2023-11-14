@@ -526,3 +526,17 @@
 .bottom__input input:hover, .bottom__input textarea:hover{
     box-shadow: rgba(14, 190, 233, 0.8) 0px 3px 6px, rgb(93, 135, 255, 0.8) 0px 3px 6px;
 }
+
+.bottom button{
+
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(14 165 233);
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 2rem 0 0 0 ;
+    font-family: sans-serif;
+}
