@@ -86,10 +86,12 @@
 .header{
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+   
     padding: 20px;
-     height: 100%;
+   
     width: 100%;
+  
+    height: 700px;
 
 }
 .info{
@@ -134,10 +136,7 @@
     font-size: 20px;
 
 }
-.pic{
-    flex: 5;
-    border: 1px solid;
-}
+
 .info__fields{
     margin-top: 50px;
     /* border: 1px solid; */
@@ -160,4 +159,33 @@
     font-weight: 600;
     font-family:sans-serif ;
 
+}
+
+.pic{
+    flex: 5;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.pic__circle{
+    width: 500px;
+    height: 500px;
+    margin-top: 7rem;
+}
+.pic__circle img{
+    width: 100%;
+}
+.pic__profile{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+   
+}
+.pic__profile img{
+    /* height: 100%; */
+    width: 100%;
 }
